@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:paddingBottom="0dp" tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#000000">
+    <LinearLayout
+        android:layout_weight="0.20"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="abh"
+            android:background="@drawable/gle"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="0.40"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_weight="0.20"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="dbh"
+                android:background="@drawable/apl"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="0.20"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            >
+                <Button
+                    android:layout_weight="0.20"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:onClick="gju"
+                    android:background="@drawable/life"
+                    />
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="0.20"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal">
+        <Button
+            android:layout_weight="0.06"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:onClick="idiot"
+            android:background="@drawable/son"
+
+            />
+        <Button
+            android:layout_weight="0.14"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:onClick="udtaa"
+            android:background="@drawable/samm"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="0.20"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal">
+        <Button
+            android:layout_weight="0.14"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:onClick="ra"
+            android:background="@drawable/mswi"
+            />
+        <Button
+            android:layout_weight="0.06"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:onClick="ok"
+            android:background="@drawable/htc"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
+
+

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.inspiron.companywiki.Sonycar"
+    android:background="@drawable/sonyth">
+    <RelativeLayout
+        android:layout_width="395dp"
+        android:layout_height="587dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFFFF"
+            android:textSize="20dp"
+            android:text="For Career Purpose Follow The Link Given Below:-"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="48dp"
+            android:id="@+id/textView3" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="BACK"
+            android:background="#ffffff"
+            android:onClick="opapls"
+            tools:layout_editor_absoluteY="379dp"
+            tools:layout_editor_absoluteX="-36dp"
+            android:id="@+id/button12"
+            android:layout_marginTop="58dp"
+            android:layout_below="@+id/button13"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Home Screen"
+            android:onClick="papopps"
+            android:background="#ffffff"
+            tools:layout_editor_absoluteY="443dp"
+            tools:layout_editor_absoluteX="0dp"
+            android:id="@+id/button"
+            android:layout_below="@+id/button12"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click here to proceed"
+            android:background="#000000"
+            android:onClick="bropws"
+            android:textColor="#FFFFFFFF"
+            android:textSize="20dp"
+            android:layout_marginTop="54dp"
+            android:layout_below="@+id/textView3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

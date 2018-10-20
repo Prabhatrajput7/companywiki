@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:paddingBottom="0dp" tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#000000"
+    >
+    <LinearLayout
+        android:layout_weight="0.50"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <Button
+            android:layout_weight="0.25"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="About Us"
+            android:onClick="micro"
+            android:textSize="40dp"
+            android:textColor="#ffffff"
+            android:background="#000000"
+            />
+        <Button
+            android:layout_weight="0.25"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Contact Us"
+            android:textSize="40dp"
+            android:onClick="micro1"
+            android:textColor="#ffffff"
+            android:background="#000000"
+            /></LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_weight="0.25"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <Button
+            android:layout_weight="0.25"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Sign In"
+            android:textSize="40dp"
+            android:onClick="micro2"
+            android:textColor="#ffffff"
+            android:background="#000000"
+            />
+        <Button
+            android:layout_weight="0.25"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Sign Up"
+            android:onClick="micro3"
+            android:textSize="40dp"
+            android:textColor="#ffffff"
+            android:background="#000000"
+            /></LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="0.25"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <Button
+            android:layout_weight="0.25"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Career"
+            android:onClick="micro4"
+            android:textSize="40dp"
+            android:textColor="#ffffff"
+            android:background="#000000"
+            /></LinearLayout>
+
+</LinearLayout>

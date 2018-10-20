@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.inspiron.companywiki.Htca"
+    android:background="@drawable/htc1">
+    <RelativeLayout
+        android:layout_width="395dp"
+        android:layout_height="587dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="BACK"
+            android:background="#ffffff"
+            android:onClick="ohhh"
+            tools:layout_editor_absoluteY="379dp"
+            tools:layout_editor_absoluteX="-36dp"
+            android:layout_marginBottom="9dp"
+            android:layout_above="@+id/button"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Home Screen"
+            android:onClick="opohp"
+            android:background="#ffffff"
+            tools:layout_editor_absoluteY="443dp"
+            tools:layout_editor_absoluteX="0dp"
+            android:layout_marginBottom="90dp"
+            android:id="@+id/button"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

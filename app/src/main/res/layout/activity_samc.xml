@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.inspiron.companywiki.Samc"
+    android:background="@drawable/sag_2">
+
+    <RelativeLayout
+        android:layout_width="395dp"
+        android:layout_height="587dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <Button
+            android:id="@+id/button39"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="178dp"
+            android:text="Back"
+            android:textSize="20dp"
+            android:background="#FFFFFFFF"
+            android:onClick="samgg"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:id="@+id/button40"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Home Screen"
+            android:textSize="20dp"
+            android:onClick="samggg"
+            android:background="#FFFFFFFF"
+            android:layout_alignTop="@+id/button39"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="57dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:id="@+id/button41"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Click here to email"
+            android:textSize="20dp"
+            android:textColor="#FFFFFFFF"
+            android:background="#000000"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="117dp"
+            android:layout_marginStart="117dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:id="@+id/button42"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="72dp"
+            android:text="Click here to call"
+            android:textSize="20dp"
+            android:textColor="#FFFFFFFF"
+            android:background="#000000"
+            android:layout_below="@+id/button41"
+            android:layout_alignLeft="@+id/button41"
+            android:layout_alignStart="@+id/button41"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:id="@+id/button43"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click here to Locate"
+            android:textSize="20dp"
+            android:onClick="locsamg"
+            android:textColor="#FFFFFFFF"
+            android:background="#000000"
+            android:layout_centerVertical="true"
+            android:layout_alignLeft="@+id/button42"
+            android:layout_alignStart="@+id/button42"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.inspiron.companywiki.Micac"
+    android:background="@drawable/micro_2">
+
+    <RelativeLayout
+        android:layout_width="395dp"
+        android:layout_height="587dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <Button
+            android:id="@+id/button24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="254dp"
+            android:text="back"
+            android:onClick="mstmi"
+            android:background="#FFFFFFFF"
+            android:textSize="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:id="@+id/button25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Home screen"
+            android:onClick="micco"
+            android:background="#FFFFFFFF"
+            android:textSize="20dp"
+            android:layout_alignTop="@+id/button24"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="56dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:id="@+id/button26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="click here to email"
+            android:textColor="#FFFFFFFF"
+            android:textSize="20dp"
+            android:background="#000000"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="105dp"
+            android:layout_marginStart="105dp"
+            android:layout_marginTop="14dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:id="@+id/button27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="click here to call"
+            android:textColor="#FFFFFFFF"
+            android:textSize="20dp"
+            android:background="#000000"
+            android:layout_marginTop="45dp"
+            android:layout_below="@+id/button26"
+            android:layout_alignLeft="@+id/button26"
+            android:layout_alignStart="@+id/button26"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:id="@+id/button28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="35dp"
+            android:text="click here to locate"
+            android:textColor="#FFFFFFFF"
+            android:textSize="20dp"
+            android:onClick="microlo"
+            android:background="#000000"
+            android:layout_above="@+id/button24"
+            android:layout_alignLeft="@+id/button27"
+            android:layout_alignStart="@+id/button27"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

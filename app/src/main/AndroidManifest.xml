@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.inspiron.companywiki">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/iconcw"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Google" />
+        <activity android:name=".Apple" />
+        <activity android:name=".Moto" />
+        <activity android:name=".Sony" />
+        <activity android:name=".Samsung" />
+        <activity android:name=".Microsoft" />
+        <activity android:name=".Htc" />
+        <activity android:name=".AboutG" />
+        <activity android:name=".Careerg" />
+        <activity android:name=".Contactg" />
+        <activity android:name=".Signig" />
+        <activity android:name=".Signug" />
+        <activity android:name=".Applec" />
+        <activity android:name=".Applesi" />
+        <activity android:name=".Applesu" />
+        <activity android:name=".Appleca" />
+        <activity android:name=".Appleau" />
+        <activity android:name=".Menuone" />
+        <activity android:name=".Menutwo" />
+        <activity android:name=".Menuthird" />
+        <activity android:name=".Htca" />
+        <activity android:name=".Htcc" />
+        <activity android:name=".Htcsi" />
+        <activity android:name=".Htcsu" />
+        <activity android:name=".Htcca" />
+        <activity android:name=".Mica" />
+        <activity android:name=".Micac" />
+        <activity android:name=".Micasi" />
+        <activity android:name=".Micasu" />
+        <activity android:name=".Micacar" />
+        <activity android:name=".Lga" />
+        <activity android:name=".Lgc" />
+        <activity android:name=".Lgsi" />
+        <activity android:name=".Lgcar" />
+        <activity android:name=".Lgsignup" />
+        <activity android:name=".Sonya" />
+        <activity android:name=".Sonyc" />
+        <activity android:name=".Sonysi" />
+        <activity android:name=".Sonysu" />
+        <activity android:name=".Sonycar" />
+        <activity android:name=".Sama" />
+        <activity android:name=".Samc" />
+        <activity android:name=".Samsi" />
+        <activity android:name=".Samsu" />
+        <activity android:name=".Samcar"></activity>
+    </application>
+
+</manifest>
